@@ -1,0 +1,23 @@
+.users-style {
+
+}
+
+
+.users-style .table-style .control {
+  float: right;
+}
+
+
+.pagination {
+  justify-content: flex-end !important;
+}
+
+.pagination .page-stats {
+  align-items: center;
+  margin-right: 5px;
+}
+
+.pagination i {
+  color: #3273dc !important;
+}
+

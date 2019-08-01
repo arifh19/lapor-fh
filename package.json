@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "start": "vue-cli-service serve --open",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll"
+  },
+  "dependencies": {
+    "jwt-decode": "^2.2.0",
+    "laravel-echo": "^1.4.0",
+    "mdbvue": "^5.5.0",
+    "pusher-js": "^4.2.2",
+    "sweetalert2": "^8.13.6",
+    "vue-flash-message": "^0.6.0",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-materialize-datatable": "^0.7.7",
+    "vue-router": "^3.0.1",
+    "vuejs-paginate": "^1.9.0",
+    "vuex": "^3.0.1",
+    "vuex-flash": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-vue-libs": "^3.0.0",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12",
+    "vue": "^2.5.7",
+    "vue-cli-plugin-mdb": "^1.1.0"
+  }
+}
